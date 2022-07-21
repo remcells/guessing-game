@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity #12</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Guessing Game</h1>
+      </header>
+      <div class="instructions">
+        <p>
+          We have selected a random number betwen 1-20. See if you can guess it
+          in three attempts or fewer.
+        </p>
+        <p>We'll tell you if your guess is too high or too low.</p>
+      </div>
+      <form id="my-form">
+        <input type="number" id="input-field" placeholder="Input your guess" />
+        <button type="submit">Submit</button>
+      </form>
+      <div class="results" style="margin-top: 1rem">
+        <div class="attempts-counter">3 attempt/s left</div>
+        <div class="guesses">INSERT GUESSES HERE</div>
+        <div class="indicators">INSERT INDICATORS HERE</div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

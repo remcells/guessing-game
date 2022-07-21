@@ -1,0 +1,53 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('Assets/Images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: coral;
+  opacity: 0.8;
+}
+
+.instructions {
+  padding: 0px 20px;
+  font-size: 0.65rem;
+  line-height: 1.5rem;
+}
+
+#input-field::placeholder {
+  font-size: 0.525rem;
+}
+
+.attempts-counter,
+.guesses,
+.indicators {
+  padding-bottom: 20px;
+}
+
+#input-field::placeholder,
+button {
+  font-family: 'Press Start 2P', cursive;
+}
+
+button {
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: #0cee0c;
+}
